@@ -505,6 +505,46 @@ mark,
   transform: scale(1.05);
 }
 
+/* Blog Cards Styling */
+.blog-card {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  border-color: #F85C70;
+}
+
+.blog-card .img-holder {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-card .content-holder {
+  background: #fff;
+}
+
+.blog-card .title {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card .btn-outline-danger:hover {
+  background-color: #F85C70;
+  border-color: #F85C70;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(248, 92, 112, 0.3);
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    margin-bottom: 2rem;
+  }
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
